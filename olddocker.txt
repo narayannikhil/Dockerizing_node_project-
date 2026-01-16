@@ -1,0 +1,10 @@
+FROM  node
+
+WORKDIR /Desktop/Docker/nodejs/my-server
+
+COPY . .
+
+RUN npm ci
+
+CMD [ "node" , "index.js" ]
+
