@@ -9,5 +9,5 @@ app.get('/home', (req, res) => {
 })
 
 app.listen(process.env.PORT, () => {
-    console.log("started t  he server");
+    console.log('Server started successfully on port ${PORT}');
 })
